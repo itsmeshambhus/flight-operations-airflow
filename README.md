@@ -63,9 +63,7 @@ flight-operations-airflow/
 ├── logs/                           # Airflow task logs (git-ignored)
 ├── plugins/                        # Airflow custom plugins (empty)
 ├── docker-compose.yml              # Postgres + Airflow services
-├── requirements.txt                # Python dependencies
-├── .env.example                    # Environment variable template
-└── .gitignore
+└── requirements.txt                # Python dependencies
 ```
 
 ---
@@ -247,7 +245,3 @@ MERGE logic is fully **idempotent** — re-running a window is safe.
 - [ ] Containerise with a proper Airflow image that pre-installs `requirements.txt`
 
 ---
-
-## License
-
-MIT
