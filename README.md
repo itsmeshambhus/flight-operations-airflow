@@ -21,6 +21,7 @@ This pipeline converts raw flight telemetry into BI-ready datasets for tools lik
 
 ## 🏗️ Architecture Overview
 
+
 ```
             OpenSky Network API
                      │
@@ -41,6 +42,8 @@ This pipeline converts raw flight telemetry into BI-ready datasets for tools lik
                      ▼
              Power BI / BI Tools
 ```
+
+![Architecture Diagram](image/architecture.png)
 
 ---
 
